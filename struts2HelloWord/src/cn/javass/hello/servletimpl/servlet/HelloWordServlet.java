@@ -1,0 +1,36 @@
+package cn.javass.hello.servletimpl.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import cn.javass.hello.servletimpl.vo.HelloWordModel;
+
+public class HelloWordServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 4959126817564905435L;
+
+	
+	
+	protected  void doGet(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{
+		doPost(request,response);
+	}
+	
+	protected  void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException, IOException{
+		
+		HelloWordModel hwm=(HelloWordModel)request.getAttribute("helloModel2");
+		hwm.bussinessExecute();
+		System.out.println(hwm.toString());
+		request.setAttribute("hwm", hwm);
+		
+		request.getRequestDispatcher("/servletimpl/welcome.jsp").forward(request, response);
+		
+	}
+	
+}
