@@ -1,0 +1,5 @@
+实现MVC模式
+
+action               是model层
+jsp                  是view层
+struts2的dispatcher   是controller层
