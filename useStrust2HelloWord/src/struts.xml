@@ -9,4 +9,4 @@
             <result name="toWelcome">/servletimpl/welcome.jsp</result>
         </action>
     </package>
-</struts>
+</struts> 
