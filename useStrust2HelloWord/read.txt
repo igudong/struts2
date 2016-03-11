@@ -4,3 +4,18 @@ action               是model层
 jsp                  是view层
 struts2的dispatcher   是controller层
  
+ 
+ 
+struts2的必备jar包
+
+asm-3.1.jar
+asm-commons-3.1.jar
+asm-tree-3.1.jar
+commons-fileupload-1.2.2.jar
+commons-io-2.0.1.jar
+commons-lang-2.5.jar
+freemarker-2.3.16.jar
+javassist-3.11.0.GA.jar
+ognl-3.0.1.jar
+struts2-core-2.2.3.1.jar
+xwork-core-2.2.3.1.jar
