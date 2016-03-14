@@ -30,3 +30,4 @@ ognl-2.6.11.jar ：对象图导航语言，通过它来读写对象属性
 xwork-2.1.2.jar ：xwork类库，struts2在其上进行构建
 commons-fileupload-1.2.1.jar：文件上传组件，2.1.6版本后必须加入此jar包
 特别需要说明的是目前strust2的最新版本是struts-2.1.6，它作为2.1.X的正式版。特别要注意导入commons-fileupload-1.2.1.jar包，在此jar包中包含了RequestContext类，如果不导入该jar包将会报异常。
+
