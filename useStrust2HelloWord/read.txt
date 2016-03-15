@@ -1,3 +1,5 @@
+该项目主要用来展示struts2的基本搭建，以及他的jar包
+
 实现MVC模式
 
 action               是model层
