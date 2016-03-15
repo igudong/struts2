@@ -22,5 +22,8 @@ lib下只放入了两个jar包，用于注解的
 
 程序入口：
 http://localhost:8080/useStrust2HelloWord/servletimpl/login
+测试注解
 
 
+http://localhost:8080/useStrust2HelloWord/servletimpl/login1
+测试  @ResultPath("")
