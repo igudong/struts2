@@ -1,0 +1,26 @@
+该项目中的其他项目jar包在userStruts2HelloWord中
+lib下只放入了两个jar包，用于注解的
+
+
+其他jar包包含
+（
+	E:\JAR包\struts2Lib\asm-3.1.jar
+	E:\JAR包\struts2Lib\asm-commons-3.1.jar
+	E:\JAR包\struts2Lib\asm-tree-3.1.jar
+	E:\JAR包\struts2Lib\commons-fileupload-1.2.2.jar
+	E:\JAR包\struts2Lib\commons-io-2.0.1.jar
+	E:\JAR包\struts2Lib\commons-lang-2.5.jar
+	E:\JAR包\struts2Lib\freemarker-2.3.16.jar
+	E:\JAR包\struts2Lib\javassist-3.11.0.GA.jar
+	E:\JAR包\struts2Lib\ognl-3.0.1.jar
+	E:\JAR包\struts2Lib\struts2-core-2.2.3.1.jar
+	E:\JAR包\struts2Lib\xwork-core-2.2.3.1.jar
+）
+
+
+该项目主要是为了测试struts2的注解
+
+程序入口：
+http://localhost:8080/useStrust2HelloWord/servletimpl/login
+
+
